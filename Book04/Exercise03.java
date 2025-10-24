@@ -1,3 +1,4 @@
+package Book04;
 
 public class Exercise03 {
 
@@ -7,8 +8,8 @@ public class Exercise03 {
         float b = 3;
         float c = 2;
         Boolean option = false;
-        float result = retornar(a, b, c,option);
-        
+        float result = retornar(a, b, c, option);
+
         System.out.println(result);
     }
 

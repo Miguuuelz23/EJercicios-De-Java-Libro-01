@@ -1,9 +1,10 @@
+package Book04;
+
 import java.util.Scanner;
 
 public class Exercise07 {
 
     // Funcion Principal
-
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -56,8 +57,8 @@ public class Exercise07 {
 
     // Funcion 2: Leer el estado del disparo
     public static boolean readInputShoot(Scanner sc) {
-        System.out.println("Please select if the mage is shooting or not:" +
-                "(false - not shooting, true - shooting)");
+        System.out.println("Please select if the mage is shooting or not:"
+                + "(false - not shooting, true - shooting)");
         boolean isShooting = sc.nextBoolean();
 
         return isShooting;

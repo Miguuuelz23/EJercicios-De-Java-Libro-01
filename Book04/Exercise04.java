@@ -1,5 +1,4 @@
-
-
+package Book04;
 
 public class Exercise04 {
 
@@ -7,7 +6,7 @@ public class Exercise04 {
 
         double numero1 = 15;
         double numero2 = 15;
-        
+
         double result = valoresIguales(numero1, numero2);
 
         System.out.println("El resultado: " + result);
